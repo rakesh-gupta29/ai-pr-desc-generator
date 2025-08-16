@@ -1,6 +1,10 @@
 # 🤖 AI PR Description Generator
 
-> A powerful browser extension that automatically generates professional Pull Request titles and descriptions using OpenAI's GPT models or Google's Gemini models by analyzing your GitHub diffs.
+### Problem
+I would prefer writing the PR descriptions myself; giving a proper context of the task, decisions and changes. but, some people I work with are obsessed with AI adoption for everything. so they would use Github copilot for it.
+
+### Solution
+Use GPTs to write a good for nothing, lengthy AI description which gives the idea to the those tools that this is like Grade A work. and I am the best developer.
 
 [![Web Store](https://img.shields.io/badge/Web%20Store-Install-blue?logo=google-chrome)](https://chromewebstore.google.com/detail/github-pr-desc-generator/ajnplipmiafledgelgdajdfepjamafml/reviews) [![SOON]]
 [![Version](https://img.shields.io/badge/version-1.5-brightgreen.svg)](https://github.com/rakesh-gupta29/ai-pr-desc-generator)
