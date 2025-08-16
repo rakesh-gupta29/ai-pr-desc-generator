@@ -1,14 +1,13 @@
 # 🤖 AI PR Description Generator
 
 ### Problem
-I would prefer writing the PR descriptions myself; giving a proper context of the task, decisions and changes. but, some people I work with are obsessed with AI adoption for everything. so they would use Github copilot for it.
+I would prefer writing the PR descriptions myself; giving a proper context of the task, decisions and changes. 
+
+But, developers and managers are obsessed with AI adoption for everything. so they would use Github copilot to evalute the work which will evaluate the work based on PR desc.
 
 ### Solution
 Use GPTs to write a good for nothing, lengthy AI description which gives the idea to the those tools that this is like Grade A work. and I am the best developer.
 
-[![Web Store](https://img.shields.io/badge/Web%20Store-Install-blue?logo=google-chrome)](https://chromewebstore.google.com/detail/github-pr-desc-generator/ajnplipmiafledgelgdajdfepjamafml/reviews) [![SOON]]
-[![Version](https://img.shields.io/badge/version-1.5-brightgreen.svg)](https://github.com/rakesh-gupta29/ai-pr-desc-generator)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## ✨ Features
 
@@ -20,28 +19,6 @@ Use GPTs to write a good for nothing, lengthy AI description which gives the ide
 - **⚡ Fast**: Works instantly on GitHub compare pages
 - **📱 Responsive**: Clean, modern interface that works on any screen size
 - **🔄 Provider Switching**: Easily switch between OpenAI and Gemini models
-
-## 🚀 Quick Start
-
-### Installation
-
-1. **From Web Store** (Soon)
-   - Visit the [Web Store](https://chromewebstore.google.com/detail/github-pr-desc-generator/ajnplipmiafledgelgdajdfepjamafml/reviews)
-   - Click "Add to Browser"
-   - The extension will be installed automatically
-
-2. **Manual Installation** (Development)
-   ```bash
-   git clone https://github.com/rakesh-gupta29/ai-pr-desc-generator.git
-   cd ai-pr-desc-generator
-   npm install
-   # In your browser:
-   # - Go to extensions
-   # - Enable developer mode
-   # - Click "Load unpacked"
-   # - Select the folder containing the extension
-   # DONE!
-   ```
 
 ### Setup
 
@@ -63,30 +40,6 @@ Use GPTs to write a good for nothing, lengthy AI description which gives the ide
    - Enter your OpenAI and/or Gemini API keys
    - Click "Close & Save Keys"
 
-## 🔑 Key Management
-
-The extension provides comprehensive API key management:
-
-### **Adding Keys**
-
-- Click "🔑 Change API Keys" to open the key management panel
-- Enter your API keys in the respective input fields
-- Use the eye button (👁️) to toggle visibility of your keys
-- Click "Close & Save Keys" to save your changes
-
-### **Deleting Keys**
-
-- Click the "🗑️ Delete" button next to any key to remove it
-- A confirmation dialog will appear to prevent accidental deletion
-- Deleted keys are immediately removed from storage and the UI
-- You can always add keys back later
-
-### **Security Features**
-
-- Keys are stored locally in your browser's secure storage
-- Keys are masked by default for privacy
-- Confirmation dialogs prevent accidental key deletion
-- No keys are ever transmitted to external servers except for API calls
 
 ## 📖 How to Use
 
@@ -109,6 +62,7 @@ The extension provides comprehensive API key management:
    - Make any necessary adjustments
    - Submit your pull request!
 
+---
 ### Supported Models
 
 **🔵 OpenAI Models:**
@@ -121,64 +75,15 @@ The extension provides comprehensive API key management:
 - **GPT-o1, GPT-o2, GPT-o3, GPT-o4** - Full performance models
 - **GPT-o3-pro** - Premium multimodal model
 
-**🟡 Gemini Models:**
-
+### **🟡 Gemini Models:**
 **Gemini 2.5 Series:**
-
 - **gemini-2.5-pro** - Enhanced thinking and reasoning, multimodal understanding, advanced coding
 - **gemini-2.5-flash** - Adaptive thinking, cost efficiency
-
 **Gemini 2.0 Series:**
-
 - **gemini-2.0-flash** - Next generation features, speed, and realtime streaming
 - **gemini-2.0-flash-lite** - Cost efficiency and low latency
-
 **Gemini 1.5 Series:**
-
 - **gemini-1.5-flash** - Fast and versatile performance across diverse tasks
 - **gemini-1.5-flash-8b** - High volume and lower intelligence tasks
 - **gemini-1.5-pro** - High-quality responses
 
-## 🛠️ Development
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-- Modern web browser
-
-### Local Development Setup
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/rakesh-gupta29/ai-pr-desc-generator.git
-   cd ai-pr-desc-generator
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Load Extension in Browser**
-   - Open your browser and go to the extensions page
-   - Enable "Developer mode" (toggle in top right)
-   - Click "Load unpacked"
-   - Select the `ai-pr-desc-generator` folder
-
-4. **Development Commands**
-
-   ```bash
-   # Format code with Prettier
-   npm run format
-
-   # Check formatting without changes
-   npm run format:check
-
-   # Lint code
-   npm run lint
-   ```
-
-### Project Structure
